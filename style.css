@@ -1,0 +1,164 @@
+/* ==================
+===== Important =====
+================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('pics/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    max-width: 1000px;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clear-div{
+    clear: both;
+}
+hr{
+    
+    margin-bottom: 0;
+    border: 5px solid #fff;
+    border-radius: 3px;
+}
+
+
+/* ==================
+===== HEADER =====
+================== */
+
+
+.profile-image{
+    margin: 0;
+    padding-top: 10px;
+}
+.prf-image{
+    height: 350px;
+    width: 200px; 
+    display: block;
+    margin: 0 auto;
+    border: 10px solid rgba(0, 38, 255, 0.24);
+    border-radius: 30px;
+}
+.profile-name h1{
+    color: black;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    font-weight: 3px;
+}
+.profile-name p{
+    color: #000;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+/* ==================
+===== Main =====
+================== */
+
+
+
+/* Personal information */
+.personal-information{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.personal-info{
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.personal-info ul{
+    list-style-type: circle;
+}
+.personal-info ul li{
+    margin: 20px;
+}
+
+/* Hire me */
+.hire{
+    margin: 20px 20px 20px 55px;
+    float: left;
+}
+.hire ol{
+    list-style-type: unset;
+}
+.hire ol li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.hire ol li a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+.hire ol li{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'ChunkFive', sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Contact me */
+.c-information{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.btn{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border: solid transparent;
+    border-radius: 22px;
+    background-color: #4897BE ;
+    color: #000000;
+}
+.btn:hover{
+    color: #4897BE;
+    background-color: #C98F8B;
+    border: 5px solid #4897BE;
+    transition: 0.5s;
+}
+
+/* ==================
+===== Footer =====
+================== */
+
+.footer{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
